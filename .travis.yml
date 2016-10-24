@@ -1,0 +1,13 @@
+language: php
+
+php:
+
+  - 7.0
+matrix:
+  fast_finish: true
+
+before_script:
+    - composer --prefer-source install
+
+script:
+    - ls

@@ -1,0 +1,18 @@
+{
+    "name": "nuxseme/composer.origin",
+    "type": "library",
+    "description": "composer template",
+    "keywords": ["composer template"],
+    "homepage": "http://nuxseme.com",
+    "license": "MIT",
+    "authors": [
+        {"name": "nuxseme", "email": "nuxseme@gmail.com"}
+    ],
+    "require": {
+        "php": ">=7"
+    },
+    "autoload": {
+        "psr-0": { "Nuxseme\\APP\\": "lib/" }
+    }
+
+}
